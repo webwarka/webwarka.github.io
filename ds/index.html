@@ -8,13 +8,13 @@
 </head>
 
 <body>
-    <h2>Размер высота: <span class="height"></span></h2>
     <h2>Размер ширина: <span class="width"></span></h2>
+    <h2>Размер высота: <span class="height"></span></h2>
     <script>
-        let heightHtml = document.querySelector(".height");
         let widthtHtml = document.querySelector(".width");
-        heightHtml.innerHTML = window.outerHeight;
+        let heightHtml = document.querySelector(".height");
         widthtHtml.innerHTML = window.outerWidth;
+        heightHtml.innerHTML = window.outerHeight;
     </script>
 </body>
 
